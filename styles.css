@@ -1,0 +1,16 @@
+section {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 50px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: width .1s ease-in-out;
+}
+img:hover {
+    width: 400px;
+}
